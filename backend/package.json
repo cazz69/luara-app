@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "dev": "node index.js",
+    "seed": "prisma db seed"
+  },
+  "prisma": {
+    "seed": "node prisma/seed.js"
+  }
+}
